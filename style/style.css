@@ -7,8 +7,7 @@
 img{
   max-width: 100%;
   height: auto;
-  vertical-align: middle;
-  display: inline-block;
+
 }
 
 /* reguler style */
@@ -409,9 +408,139 @@ justify-content: center;
 
 /* bmi calcluter */
 
-.bmi-calculator{
-padding: 20px;
+.mahade{
+  display: flex;
+  justify-content: space-between;
+  
 }
+.tamanna{
+  max-width: 30%;
+  color: white;
+  margin-left: 20px;
+}
+
+.yyy{
+  margin-bottom: 10px;
+}
+
+table {
+  width: 100%;
+  text-align: center;
+}
+
+th, td {
+  height: 40px;
+}
+
+.tanjim{
+  max-width: 60%;
+}
+
+.yyy{
+  margin-bottom: 10px;
+}
+
+.tamanna h3,.tanjim h3{
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.tamanna h3{
+  margin-bottom: 50px;
+}
+.qqq{
+  color: white;
+}
+
+.tanjim h3{
+  margin-bottom: 30px;
+}
+
+.lll{
+  background-color: gainsboro;
+  padding: 20px 50px;
+  border: none;
+  border-radius: 8px;
+}
+
+.tanjim div{
+  margin-bottom: 10px;
+
+}
+
+.ppp{
+  background-color: gainsboro;
+  padding: 20px 50px;
+  border: none;
+  border-radius: 8px;
+  
+}
+
+.btnww{
+  padding: 20px 60px;
+  margin-top: 20px;
+}
+
+
+.nnn{
+  text-align: center;
+}
+
+.uuu{
+  padding-top: 100px;
+}
+
+
+.father{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  padding: 30px;
+  background-color: #353434;
+  border-radius: 8px;
+  margin-top: 70px;
+}
+
+.vvv{
+  border-radius: 8px;
+}
+
+.maaa{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.sontan1{
+  width: 30%;
+}
+.sontan1 h1{
+  font-size: 70px;
+  color: #E6533C;
+  margin-bottom: 30px;
+}
+
+.sontan2{
+  max-width: 30%;
+}
+
+.jjk{
+  background-color: white;
+  font-size: 30px;
+}
+
+.maaa p{
+  font-size: 25px;
+}
+
+.sss{
+  text-align: center;
+  font-size: 24px;
+  padding: 50px 0px;
+}
+
+
 
 
 
