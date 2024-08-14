@@ -1,0 +1,425 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+/* reguler style */
+
+.title{
+  font-size: 45px;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 25px;
+}
+
+.description{
+  color: #b7b6b6;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 35px;
+  
+}
+
+.description1{
+  color: #b7b6b6;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 35px;
+  width: 70%;
+  margin: 0px auto;
+}
+
+.btn{
+  background-color: #E6533C;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 30px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+section{
+  background-color: #080808;
+}
+
+.container{
+  max-width: 1240px;
+  height: auto;
+  margin: 0px auto;
+}
+
+nav{
+  padding: 40px 0px;
+}
+
+
+
+.manu-ber{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 20px;
+  margin-bottom: 50px;
+}
+
+.logo{
+  font-size: 42px;
+  font-weight: 700;
+  color: #E6533C;
+
+}
+
+#mobile-manu{
+  width:30px;
+  color: white;
+  background-color: white;
+  display: none;
+  cursor: pointer;
+  border-radius: 2px;
+  align-items: center;
+  border: 2px solid #E6533C;
+  border-radius: 8px;
+ }
+
+.manus{
+ display: flex;
+ gap: 50px;
+ align-items: center;
+ border: 1px solid #3c3c3c;
+ border-radius: 30px;
+ height: 55px;
+ padding: 0px 5px;
+}
+
+.manus li{
+  list-style: none;
+}
+
+.manus li a{
+text-decoration: none;
+color: white;
+font-size: 20px;
+padding: 10px 20px;
+border-radius: 30px;
+transition: background-color .5s;
+}
+
+.active,.manus li a:hover{
+  background-color: #E6533C;
+}
+
+
+/* hero-section */
+
+.hero-section{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 85px;
+}
+
+.hero-section-info{
+ 
+}
+
+.image-style{
+  position: relative;
+
+
+}
+
+.hero-section-info h1{
+  font-size: 68px;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 40px;
+}
+
+
+
+.hero-section-info p{
+  width: 500px;
+}
+
+
+
+
+
+.image-style img{
+  width: 380px;
+  /* margin-right: 70px; */
+}
+
+.btn-s{
+  background-color: transparent;
+  border: 1px solid grey;
+  transition:.5s, border .5s;
+  margin-left: 20px;
+  margin-top: 40px;
+
+}
+
+.btn-s:hover{
+ background-color: #E6533C;
+ /* border: none; */
+ border-color: #E6533C;
+}
+
+.image-button-right{
+  padding: 20px;
+  border: none;
+  border-radius: 8px;
+  position: absolute;
+  top: 160px;
+  right: -70px;
+  color: #fff;
+  border: 1px solid gray;  
+  overflow: hidden;
+  background: rgba(255, 255, 255,.1);
+
+
+
+}
+
+
+.image-button-right h2{
+  font-size: 30px;
+  text-align: start;
+
+}
+
+.image-button-right p{
+  font-size: 18px;
+  color: #929292;
+
+}
+
+
+.image-button-left{
+  padding: 20px;
+  background-color: rgb(255, 255, 255,.1);
+  overflow: hidden;
+  border: 1px solid gray;
+  border-radius: 8px;
+  position: absolute;
+  top: 460px;
+  left: -100px;
+  color: rgb(246, 0, 0);
+
+}
+
+.image-button-left h2{
+  font-size: 25px;
+  text-align: start;
+
+}
+
+.image-button-left p{
+  font-size: 18px;
+  color: #929292;
+}
+
+.goal{
+  background-color: rgb(194, 18, 2);
+  width: 28px;
+  height: 28px;
+  border-radius: 50px;
+}
+
+.image-button-left{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* main */
+.change-your-habits h2 ,.change-your-habits p{
+text-align: center;
+
+}
+
+
+
+
+.member{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+.member img{
+  border-radius: 50%;
+  margin-bottom: 25px;
+}
+.member h3{
+  font-size: 30px;
+  color: rgba(255, 255, 255, 0.865);
+  margin-bottom: 10px;
+}
+
+.member p{
+  font-size: 16px;
+  text-align: center;
+  color: #929292;
+}
+
+.profile-pic{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 100px;
+  margin-top: 75px;
+  padding-bottom: 30px;
+
+}
+
+
+/* Run Card */
+
+.run-card h2{
+  margin-bottom: 35px;
+}
+
+.run-card p{
+  margin: 0px;
+  margin-bottom: 35px;
+}
+
+.run-card{
+  width: 95%;
+  margin: 0px auto;
+}
+
+.run-card button{
+  padding: 12px 60px;
+}
+
+
+
+
+.run-card{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #222222;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 55px;  
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.922);
+}
+
+.card-img img{
+  border-radius: 8px;
+  height: 300px;
+  width: 450px;
+}
+
+/* Tranings and exercises */
+
+.Trainings{
+  padding-top: 70px;
+  padding-bottom: 50px;
+}
+
+.box1{
+  background-image:url('../assets/photo/exercise1.jpg');
+}
+
+.box2{
+  background-image:url('../assets/photo/exercise2.png');
+}
+
+.box3{
+  background-image:url('../assets/photo/exercise3.png');
+}
+
+.box4{
+  background-image:url('../assets/photo/exercise4.png');
+}
+
+.box5{
+  background-image:url('../assets/photo/exercise5.jpg');
+}
+
+.box6{
+  background-image:url('../assets/photo/exercise6.jpg');
+}
+
+.yy{
+  padding-left: 20px;
+}
+
+.gallery{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 170px;
+  padding:80px 0px;
+}
+
+.box{
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: white;
+  font-weight: 700;
+}
+
+.box1,.box2{
+  background-blend-mode:multiply;
+  background-color: rgb(38, 177, 112);
+}
+
+.box2{
+  background-blend-mode:multiply;
+  background-color: rgb(177, 77, 38);
+}
+
+.box3{
+  background-blend-mode:multiply;
+  background-color: rgb(134, 130, 129);
+}
+
+.box4{
+  background-blend-mode:multiply;
+  background-color: rgba(58, 58, 58, 0.233);
+}
+
+.box5{
+  background-blend-mode:multiply;
+  background-color: rgb(230, 201, 42);
+}
+
+.box6{
+  background-blend-mode:multiply;
+  background-color: rgb(119, 193, 216);
+}
+
+/* bmi calcluter */
+
+.bmi-calculator{
+padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
